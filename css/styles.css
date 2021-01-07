@@ -1,0 +1,42 @@
+header {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+body {
+
+    font-family: 'Work Sans', sans-serif;
+}
+
+.bg-image {
+    background-image: url("../image/4.png");
+    height: 100vh;
+    background-position: initial;
+    background-size: cover;
+}
+
+.thumbnail {
+    position: relative;
+}
+
+.caption {
+    position: absolute;
+    top: 40%;
+    width: 100%;
+}
+
+.caption h2 {
+    margin: 0;
+    padding: 0;
+}
+
+.imgc>img {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+}
+
+.cardd {
+    width: 100% !important;
+    height: calc(100% - 40px) !important;
+    object-fit: contain !important;
+}
